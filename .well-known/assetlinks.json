@@ -1,0 +1,10 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.betwixtapp",
+    "sha256_cert_fingerprints":
+    ["CA:B0:D9:3E:0F:B5:D7:B6:68:B9:36:21:7F:DA:27:8D:16:1E:F5:9B:F3:97:DD:47:6F:D3:2E:DC:D1:E7:24:68"]
+  }
+}]
+
