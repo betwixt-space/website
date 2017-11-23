@@ -97,6 +97,15 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
+			<script>
+				$(function() {
+					var url = window.location.href;
+					var search = window.location.search;
+					if(url.indexOf('?group_uid=') != -1) {
+						window.location.href = 'betwixt://betwixt.space/' + search;
+					}
+				});
+			</script>
 
 	</body>
 </html>
